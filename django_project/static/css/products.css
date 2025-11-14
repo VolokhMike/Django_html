@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #7bdff2);
+    padding: 30px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2d2d2d;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.product-list {
+    list-style: none;
+}
+
+.product-item {
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    background-color: #f8fbff;
+    border: 1px solid #d8e6f5;
+    transition: transform 0.25s ease, box-shadow 0.25s
+}
